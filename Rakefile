@@ -8,6 +8,6 @@ task :hola do
 end
 
 task :console :environment do
-  pry.start
+  irb.start
 end
 end
