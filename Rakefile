@@ -9,6 +9,6 @@ task :hola do
 end
 end
 
-task :console :environment do
+task console: :environment do
   pry.start
 end
