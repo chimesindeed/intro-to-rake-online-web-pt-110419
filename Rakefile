@@ -7,7 +7,7 @@ task :hola do
   puts "hola de Rake!"
 end
 
-task :console do
-  irb.start
+task :console :environment do
+  pry.start
 end
 end
