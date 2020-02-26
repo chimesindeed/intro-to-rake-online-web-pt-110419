@@ -7,5 +7,7 @@ task :hola do
   puts "hola de Rake!"
 end
 
-
+task :console do
+  pry.start
+end
 end
